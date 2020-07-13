@@ -1,0 +1,90 @@
+export const stubUsersCollection = [
+  {
+    _id: 1,
+    email: "john@gmail.com",
+    mobile: "",
+    phone: "12341234",
+    status: "ACTIVE",
+    subscribed: true,
+    businesses: [
+      {
+        orgId: "A0000001",
+        name: "JG Farms",
+        status: "ACTIVE",
+        abn: "91111111110",
+      },
+    ],
+    pbus: [
+      {
+        pbuId: "PBU0000000001",
+        name: "John Grant Unit",
+      },
+    ],
+    userId: "U00000001",
+    firstName: "John",
+    lastName: "Grant",
+    fullName: "John Grant",
+    businessRole: "HR Officer",
+    subscriptionSent: true,
+    subscriptionSentTime: "2020-06-04T00:00:00",
+    addTime: "2019-06-13T15:23:09",
+  },
+  {
+    _id: 2,
+    email: "d.anthony1234@gmail.com",
+    mobile: "12344444",
+    status: "ACTIVE",
+    subscribed: true,
+    businesses: [
+      {
+        orgId: "A00000002",
+        name: "D'Anthony Fruit Growers",
+        status: "ACTIVE",
+        abn: "11111111112",
+      },
+    ],
+    pbus: [
+      {
+        pbuId: "PBU0000000002",
+        name: "John D'Anthony",
+      },
+    ],
+    userId: "U00000002",
+    firstName: "John",
+    lastName: "D'Anthony",
+    fullName: "John D'Anthony",
+    businessRole: "",
+    subscriptionSent: true,
+    subscriptionSentTime: "2020-06-04T00:00:00",
+    addTime: "2019-06-13T15:23:09",
+  },
+  {
+    _id: 3,
+    email: "office@hello.com",
+    mobile: "12344444",
+    status: "ACTIVE",
+    subscribed: true,
+    businesses: [
+      {
+        orgId: "A00000003",
+        name: "John Papa Farm",
+        status: "ACTIVE",
+        abn: "11111111113",
+      },
+    ],
+    pbus: [
+      {
+        pbuId: "PBU0000000234",
+        name: "John PAPA & Sons",
+      },
+    ],
+    userId: "U00000002",
+    firstName: "Petra",
+    lastName: "Katya",
+    fullName: "Petra Katya",
+    businessRole: "",
+    subscriptionSent: true,
+    subscriptionSentTime: "2020-06-04T00:00:00",
+    addTime: "2019-06-13T15:23:09",
+  },
+];
