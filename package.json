@@ -11,7 +11,7 @@
     "@types/mongodb": "^3.5.20",
     "classnames": "^2.2.6",
     "cors": "^2.8.5",
-    "express": "~4.16.1",
+    "express": "~4.17.3",
     "moment": "^2.26.0",
     "mongodb": "^3.5.8",
     "react": "^16.13.1",
